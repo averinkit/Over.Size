@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		Over.Size
+	</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<nav>
+		<div class="navigata">
+			<a href="#" class="navigata-brand"><img style="position: relative;width: 50px;height:  50px;" src="img/OverSize2.png" alt="photo" width="160" height="50" style=" border: 8px solid #ffffff;"></a>
+			<button class="manyushka-alugan">
+				<i class="fas fa-align-center fa-lg"></i>
+			</button>
+			<div class="navigata-collapse">
+				<ul class="navigata-nav">
+					<li class="nav-item">
+						<a href="#main">Главная</a>
+					</li>
+					<li class="nav-item">
+						<a href="#cat">Каталог</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contact">Контакты</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<script>
+			$(document).ready(function () {
+				$( ".manyushka-alugan" ).click(function() {
+					$( '.navigata-collapse' ).toggleClass( "collapse");
+				  });
+			});
+	</script>
+	<style type="text/css">
+	.navigata {
+	   width: 100%;
+	   font-family: 'sans-serif';
+	   background-color: #dad7c5;
+	   color: #008037;
+	  padding: 12px;
+	}
+	.navigata-brand {
+	  float: left;
+	  text-decoration: none;
+	  font-size: 24px;
+	  padding: 0.4em 1.4em;
+	  color: #008037;
+	}
+	.navigata-nav{
+	  margin: 0%;
+	}
+	.navigata .navigata-nav .nav-item{
+	  display: inline;
+	  list-style: none;
+	}
+	   
+	.navigata .navigata-nav .nav-item a {
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 18px;
+	  padding: 0.9em 0.7em;
+	  color: #008037;
+	}
+
+	.navigata .navigata-nav .nav-item a:hover {
+	  color: #008037;
+	  text-shadow: 0 0 5px #fbf8f8, 0 0 10px #f5f0f0, 0 0 15px #f5f3f3, 0 0 20px #9a1a9a, 0 0 20px #af159c, 0 0 40px #cc15a1, 0 0 50px #a51097, 0 0 75px #a0139c;
+	}
+
+	.manyushka-alugan {
+	  float: right;
+	  width: 50px;
+	  height: 32px;
+	  margin: 0.6em 2em;
+	  background-color: rgba(0, 0, 0, 0);
+	  color: rgba(0, 128, 55, 0.7);
+	  border: 1px solid rgba(247, 247, 247, 0.3);
+	  border-radius: 3px;
+	  cursor: pointer;
+	  display: none;
+	}
+	.manyushka-alugan:hover {
+	  color: rgb(0,128,55);
+	}
+
+	@media screen and (max-width:456px){
+	  .navigata-brand{
+		display: inline-block;
+		float: none;
+	  }
+	  .manyushka-alugan{
+		display: inline-block;
+  }  
+  .navigata-nav{
+	color: white;
+	padding: 0%;
+  }
+  .navigata .navigata-nav .nav-item{
+	display: block;
+	list-style: none;
+  }
+  .navigata-collapse{
+	height: 0vh;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+	transition: all 499ms ease;
+  }
+  .collapse{
+	height: 100vh;
+  }
+}
+</style>
+</head>
+<body>
+	<header>
+		<h1 style="position: relative;text-align: center;">Интернет-магазин Over.Size</h1>
+		<img style="position: relative;width: 300px;height: 300px;left: 39%;" src="img/OverSize.png" alt="photo">
+	</header>
+	<main>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+      	<img src="https://sun7-14.userapi.com/impf/SkDpf-ETy_1yL9ddOc62oE8nEhNg6xQSIWumeQ/WOzA30IjX2A.jpg?size=720x1080&quality=96&sign=8c658d5556cdcef7db7a6f4f35299974&type=album" align="left" style="width: 330px;height:  450px;left: 3%;border: 8px solid #ffffff;">
+      	<p>Я студент Института физики CГУ им. Чернышевского направления "ИСИТ". Занимаюсь продажей бытовой техники через интернет. Но в свободное время также люблю заниматься музыкой: играю на гитаре и на фортепиано.</p>
+        <p> Себя могу охарактеризовать как энергичного, амбициозного и собранного человека.</p>
+		<p> Считаю, что человеку необходимо расширять свой кругозор и быть всесторонне развитой личностью.</p>
+		<p> По поводу сотрудничества пишите во Вконтакте или в любую другую соцсеть, которая указана во вкладке "Контакты".</p>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 style="position: relative;text-align: center;" id="cat">Каталог</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+        <h4 style="position: relative;text-align: center;"><a href="">Чайники, термопоты</a></h4>
+        <h4 style="position: relative;text-align: center;"><a href="">Утюги</a></h4>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3">
+        <h4 style="position: relative;text-align: center;"><a href="">Миксеры, блендеры</a></h4>
+        <h4 style="position: relative;text-align: center;"><a href="">Вентиляторы, обогреватели</a></h4>
+      </div>
+    </div>
+  </div>
+	</main>
+	<footer style="position: relative;text-align: center;">
+		  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 id="contact">Контакты для связи</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h4>Телефон: +7 (900) 555-35-35</h4>
+        <h4>Почта: <a href="mailto: averinkit@gmail.com">averinkit@gmail.com</a></h4>
+        <h4>VK: <a href="mailto: https://vk.com/id259748921">https://vk.com/id259748921</a></h4>
+      </div>
+    </div>
+  </div>  
+		Все права НЕ защищены. Копируйте всё, что хотите 2022
+	</footer>
+</body>
+</html>
